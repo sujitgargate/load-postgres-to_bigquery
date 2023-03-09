@@ -1,0 +1,20 @@
+{
+    "DB":{
+    "POSTGRES_USER": "postgres",
+    "POSTGRES_PASSWORD": "postgres",
+    "POSTGRES_CONNECTION_STRING":"jdbc:postgresql://localhost:5432/",
+    "POSTGRES_DRIVER":"org.postgresql.Driver",
+    "POSTGRES_SPARK_JAR":"resources\\postgresql-42.5.1.jar"
+    },
+
+    "OBJC_DISABLE_INITIALIZE_FORK_SAFETY":"YES",
+
+    "PROJECT_CONFIG" : {
+        "PROJECT_ID" : "sujit-5893",
+        "DATASET_ID" : "ecommerce",
+        "TABLE" : "orders_table"
+    },
+    "GOOGLE_CLOUD" : {
+        "credentials":"resources\\sujit-use-case-7bd74232c44c.json"
+    }
+}
